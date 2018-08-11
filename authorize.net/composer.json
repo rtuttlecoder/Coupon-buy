@@ -1,0 +1,12 @@
+{
+  "require": {
+  "php": ">=5.5",
+  "ext-curl": "*",
+  "phpunit/phpunit": "^5.0",
+  "authorizenet/authorizenet": "1.9.3",
+  "jms/serializer": "serializer-master-dev as 1.8"
+  },
+  "autoload": {
+    "classmap": ["constants"]
+  }
+}
